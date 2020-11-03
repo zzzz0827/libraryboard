@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0; }
+body{padding-left: 5%; background: url("../image/Background.jpg") no-repeat; background-size: cover;}
+#container{width: 95%; opacity: 0.8;}
+header .top{height: 15px; background-color: white; border: 1px solid lightgray; margin-bottom: 0.3%; text-align: right;}
+header .top .topA{font-size: 10px; padding-right: 0.5%;}
+header .top .topA a{text-decoration: none; }
+header .main{height: 100px; background-color: white; border: 1px solid lightgray; text-align: center; margin-bottom: 0.3%;}
+header .main h1{font-size: 50px; padding-top: 0.5%; font-family: 'Jua', sans-serif;}
+section{position: relative; background-color: white; height: 300px; width: 500px; border: 1px solid lightgray; text-align: center; margin: 0 auto; margin-top: 10%;}
+section h1{font-size: 40px; font-family: 'Jua', sans-serif; margin: 30px;}
+section label{font-size: 20px; font-family: 'Jua', sans-serif;}
+footer{position: absolute; background-color: white; height: 30px; width: 90.15%; border: 1px solid lightgray; margin-top: 0.3%; bottom: 0%; left: 50.14%; transform: translateX(-50%); text-align: center;}

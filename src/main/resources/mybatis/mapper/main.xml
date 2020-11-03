@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.co.libraryboard.dao.MainMapper">
+    <select id="getUsr" resultType="kr.co.libraryboard.vo.UsrVO">
+    SELECT
+      usr_id,  usr_nm
+    FROM
+      ck_usr
+    WHERE
+      usr_id = '1'
+   </select>
+</mapper>

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0; }
+body{padding-left: 5%; background: url("../image/Background.jpg") no-repeat; background-size: cover;}
+#container{width: 95%; opacity: 0.8;}
+header .top{height: 15px; background-color: white; border: 1px solid lightgray; margin-bottom: 0.3%; text-align: right;}
+header .top .topA{font-size: 10px; padding-right: 0.5%;}
+header .top .topA a{text-decoration: none; }
+header .main{height: 100px; background-color: white; border: 1px solid lightgray; text-align: center; margin-bottom: 0.3%;}
+header .main h1{font-size: 50px; padding-top: 0.5%; font-family: 'Jua', sans-serif;}
+section{position: relative; background-color: white; height: 800px; border: 1px solid lightgray;}
+section .main{position: relative; width: 99.5%; height: 60%; border: 1px black solid; margin: 0.25%}
+section .main .selectBox .box{float:left; list-style-type: none; width: 400px; height: 400px; margin: 43px; margin-left: 110px; text-align: center; }
+section .main .selectBox .box1{background-color: cornflowerblue; border: 1px solid #4885f1; transition: 0.1s ease-in;}
+section .main .selectBox .box2{background-color: hotpink; border: 1px solid #fd4ea4; transition: 0.1s ease-in;}
+section .main .selectBox .box3{background-color: palegreen; border: 1px solid #6bfa6b; transition: 0.1s;}
+section .main .selectBox .box:hover{transform: scale(1.05, 1.05)}
+section .main .selectBox .box p{color: black; font-size: 50px; margin-top: 160px; font-family: 'Jua', sans-serif;}
+section .bookRecommended{position: relative; width: 99.5%; height: 37.5%; border: 1px black solid; margin: 0.25%}
+footer{position: absolute; background-color: white; height: 30px; width: 90.15%; border: 1px solid lightgray; margin-top: 0.3%; bottom: 0%; left: 50.14%; transform: translateX(-50%); text-align: center;}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Board</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/loginStyle.css">
+</head>
+<body>
+<div id="container">
+    <header>
+        <div class="top">
+            <p class="topA">
+                <a href="#">로그인</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">회원가입</a>
+            </p>
+        </div>
+        <div class="main"><h1>Library Board</h1></div>
+    </header>
+    <section>
+        <article id="loginForm">
+            <h1>로그인</h1>
+            <form action="/doLogin" class="form-inline">
+                <div class="form-group"><label>ID : &nbsp;&nbsp; </label><input type="text" class="form-control"></div><br>
+                <div class="form-group"><label>PW : &nbsp; </label><input type="password" class="form-control"></div><br>
+                <input type="submit" value="로그인" class="form-control">
+            </form>
+        </article>
+    </section>
+    <footer>Copyright ⓒ 2020-11-02 임동우</footer>
+</div>
+</body>
+</html>
