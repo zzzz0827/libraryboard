@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 
 import javax.sql.DataSource;
 
-@SpringBootApplication(scanBasePackages = {"kr.co.libraryboard.dao"})
+@SpringBootApplication
 public class LibraryboardApplication {
 
     public static void main(String[] args) {
