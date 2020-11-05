@@ -9,9 +9,9 @@
     <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script>
         $(document).ready(function (){
-            $("#btnLogin").click(function (){
-                var userId = $("#userId").value()
-                var userPw = $("#userPw").value()
+            $("#btnLogin").on("click", function (){
+                var userId = $("#userId").val()
+                var userPw = $("#userPw").val()
                 if(userId == ""){
                     alert("아이디를 입력하세요")
                     $("#userId").focus()
@@ -22,8 +22,6 @@
                     $("#userId").focus()
                     return
                 }
-                document.form1.action="${path}/loginCheck"
-                document.form1.submit()
             })
         })
     </script>
@@ -46,8 +44,8 @@
             <form action="/loginCheck" class="form-inline" method="post">
                 <div class="form-group"><label>ID : &nbsp;&nbsp; </label><input type="text" class="form-control" id="userId" name="id"></div><br>
                 <div class="form-group"><label>PW : &nbsp; </label><input type="password" class="form-control" id="userPw" name="pw"></div><br>
-                <input type="submit" value="로그인" class="form-control" id="btnLogin" name="form1">
-                <p th:if="isLoggedinSucsses == false" style="color: red">로그인에 실패했습니다!</p>
+                <input type="submit" value="로그인" class="form-control loginBtn" id="btnLogin" name="form1">
+                <p th:if="isLoggedinSuccsess == false" style="color: red">로그인에 실패했습니다!</p>
             </form>
         </article>
     </section>
